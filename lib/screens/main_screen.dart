@@ -34,14 +34,6 @@ class _MainScreenState extends State<MainScreen> {
       appBar: AppBar(
         title: Text(Constants.appName),
         centerTitle: true,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.search),
-            onPressed: () {
-              // Handle search action
-            },
-          ),
-        ],
       ),
       body: _widgetOptions[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
